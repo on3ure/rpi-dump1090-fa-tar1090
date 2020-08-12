@@ -26,7 +26,7 @@ Go to [flightaware](https://flightaware.com/adsb/piaware/claim to claim your) to
 
 
 ## Install tar-1090 ##
-```
+```console
 sudo bash -c "$(wget -nv -O - https://raw.githubusercontent.com/wiedehopf/tar1090/master/install.sh)"
 ```
 
