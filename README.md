@@ -38,4 +38,4 @@ sudo reboot
 ```
 
 ## Console ##
-go to http://<ip-of-your-pi>/tar1090
+go to http://ip-of-your-pi/tar1090
