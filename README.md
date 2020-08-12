@@ -3,8 +3,6 @@
 ### Why ###
 Why not ?
 
-dump1090-fa [dump1090-fa](https://github.com/adsbxchange/dump1090-fa)
-
 ### Install on Linux - Raspberry PI 4 ... Buster Release (2020) ###
 
 ## Install Dependancies ##
@@ -28,7 +26,8 @@ Go to [flightaware](https://flightaware.com/adsb/piaware/claim to claim your) to
 
 
 ## Install tar-1090 ##
-```sudo bash -c "$(wget -nv -O - https://raw.githubusercontent.com/wiedehopf/tar1090/master/install.sh)"
+```
+sudo bash -c "$(wget -nv -O - https://raw.githubusercontent.com/wiedehopf/tar1090/master/install.sh)"
 ```
 
 ## Disable bluetooth ##
