@@ -1,4 +1,4 @@
-# Dump1090 & Tar1090 Raspberry PI 4 #
+# Dump1090 & Tar1090 Raspberry PI 3/4 #
 
 ### Why ###
 Why not ?
@@ -28,6 +28,11 @@ Go to [flightaware](https://flightaware.com/adsb/piaware/claim to claim your) to
 ## Install tar-1090 ##
 ```console
 sudo bash -c "$(wget -nv -O - https://raw.githubusercontent.com/wiedehopf/tar1090/master/install.sh)"
+```
+
+## Install automatic gain optimization for dump1090fa ##
+```console
+sudo bash -c "$(wget -q -O - https://raw.githubusercontent.com/wiedehopf/adsb-scripts/master/dump1090-fa-autogain.sh)"
 ```
 
 ## Disable bluetooth ##
